@@ -44,10 +44,10 @@ export function Home() {
         <img className="w-full h-1/4" src={Banner} alt="" />
 
     </div>
-    <section className=" grid md:grid-cols-4  grid-cols-2 px-8  gap-1.5 items-center mb-4 justify-around">
+    <section className="w-full grid md:grid-cols-4  grid-cols-1 px-8  gap-1.5 items-center mb-4 justify-around">
         {
             produtos.map((item)=>(
-              <div key={item.id} className="p-6 w-2xs flex flex-col items-center justify-between gap-4  rounded bg-zinc-200 text-center h-full">
+              <div key={item.id} className="p-6 w-full flex flex-col items-center justify-between gap-4  rounded bg-zinc-200 text-center h-full">
                 <img src={item.cover} alt={item.title} />
               <p className="text-sm text-zinc-800 font-medium">{item.title}</p>
               <strong>{item.price.toLocaleString('pt-BR',{

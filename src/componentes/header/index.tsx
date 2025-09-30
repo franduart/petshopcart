@@ -8,7 +8,7 @@ export function Header() {
   const {cartAmout} = useContext(CartContext)
 
  return(
-  <header className='w-full shadow-2xl flex items-center justify-between pl-4 pr-4  bg-blue-700 text-white text-lg'>
+  <header className='w-full shadow-2xl flex items-center justify-between pl-4 pr-4  bg-[#0077b6] text-white text-lg'>
     <Link to='/'>
     <img className='w-30 rounded-bl-xl' src={Logo} alt="logo" />
     </Link>

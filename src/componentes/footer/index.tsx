@@ -5,7 +5,7 @@ export function Footer(){
     let ano = data.getFullYear()
 
     return(
-        <footer className='flex items-center justify-center flex-col text-center bg-blue-900 text-white pb-4'>
+        <footer className='flex items-center justify-center flex-col text-center bg-[#0077b6] text-white pb-4'>
             <img className='w-40' src={Logo} alt="logo" />
             <div>
                 <h3>Ubatuba-SP</h3>
