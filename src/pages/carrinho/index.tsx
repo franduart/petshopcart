@@ -1,5 +1,5 @@
-import { useContext, useState } from "react"
-import { CartContext, type CartProps } from "../../componentes/contexts/CartContext"
+import { useContext } from "react"
+import { CartContext  } from "../../componentes/contexts/CartContext"
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 export function Carrinho() {
